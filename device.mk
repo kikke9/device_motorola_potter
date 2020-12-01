@@ -256,7 +256,9 @@ PRODUCT_PACKAGES += \
     MotoActions
 
 # Dex
-PRODUCT_DEXPREOPT_SPEED_APPS += SystemUI
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    SystemUI \
+    SystemUIGoogle
 
 # Media (OMX)
 PRODUCT_PACKAGES += \
