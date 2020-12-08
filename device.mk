@@ -258,7 +258,8 @@ PRODUCT_PACKAGES += \
 # Dex
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
-    SystemUIGoogle
+    Settings \
+    SetupWizard
 
 # Media (OMX)
 PRODUCT_PACKAGES += \
