@@ -173,6 +173,7 @@ TARGET_PROVIDES_LIBLIGHT := true
 # Manifest
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/manifest.xml
 DEVICE_MATRIX_FILE   := $(DEVICE_PATH)/configs/compatibility_matrix.xml
+PRODUCT_ENFORCE_VINTF_MANIFEST_OVERRIDE := true
 BOARD_VNDK_RUNTIME_DISABLE := true
 
 # Media
